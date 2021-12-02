@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="row pb-5">
                         <div className="col-12 text-center wow fadeInUp">
-                            <img src="assets/images/footer-logo.png" className="img-fluid" alt />
+                            <img src="images/footer-logo.png" className="img-fluid" alt />
                         </div>
                     </div>
                 </div>

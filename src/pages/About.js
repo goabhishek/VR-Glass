@@ -8,7 +8,7 @@ export default function About() {
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <img
-                                src="assets/images/vr-glass/vr-box.png"
+                                src="images/vr-glass/vr-box.png"
                                 className="img-fluid floating"
                                 alt
                             />

@@ -24,7 +24,7 @@ export default function Work() {
                         >
                             <div className="content">
                                 <img
-                                    src="assets/images/vr-glass/icon/quill.svg"
+                                    src="images/vr-glass/icon/quill.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -42,7 +42,7 @@ export default function Work() {
                         >
                             <div className="content">
                                 <img
-                                    src="assets/images/vr-glass/icon/chat.svg"
+                                    src="images/vr-glass/icon/chat.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -60,7 +60,7 @@ export default function Work() {
                         >
                             <div className="content">
                                 <img
-                                    src="assets/images/vr-glass/icon/virtual-reality.svg"
+                                    src="images/vr-glass/icon/virtual-reality.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />

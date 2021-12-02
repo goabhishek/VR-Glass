@@ -14,7 +14,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/360-degrees.svg"
+                                    src="images/vr-glass/icon/360-degrees.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -32,7 +32,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/game-console.svg"
+                                    src="images/vr-glass/icon/game-console.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -50,7 +50,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/smartphone.svg"
+                                    src="images/vr-glass/icon/smartphone.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -68,7 +68,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/tap.svg"
+                                    src="images/vr-glass/icon/tap.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -86,7 +86,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/vr-glasses.svg"
+                                    src="images/vr-glass/icon/vr-glasses.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />
@@ -104,7 +104,7 @@ export default function Features() {
                         >
                             <div className="icon-block mb-md-5 mb-sm-4 px-2">
                                 <img
-                                    src="assets/images/vr-glass/icon/vr-glasses-1.svg"
+                                    src="images/vr-glass/icon/vr-glasses-1.svg"
                                     alt
                                     style={{ height: 70, width: 70 }}
                                 />

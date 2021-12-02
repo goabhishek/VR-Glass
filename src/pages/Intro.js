@@ -11,7 +11,7 @@ export default function Intro() {
                             data-wow-duration=".5s"
                             data-wow-delay=".2s"
                         >
-                            <img className="img-fluid" src="assets/images/vr-glass/img-3.png" alt />
+                            <img className="img-fluid" src="images/vr-glass/img-3.png" alt />
                         </div>
                         <div
                             className="col-lg-6 ml-auto wow zoomIn"

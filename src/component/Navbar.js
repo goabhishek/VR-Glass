@@ -10,7 +10,7 @@ export default function Navbar() {
                 <nav className="navbar navbar-expand-lg navbar-sticky">
                     <div className="container">
                         <a className="navbar-brand" href="index.html">
-                            <img className="img-fluid" src="assets/images/vr-glass/logo.png" alt="logo" />
+                            <img className="img-fluid" src="images/vr-glass/logo.png" alt="logo" />
                         </a>
                         <button
                             className="navbar-toggler"

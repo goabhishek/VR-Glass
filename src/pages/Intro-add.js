@@ -8,7 +8,7 @@ export default function IntroAdd() {
                     <div className="row">
                         <div className="col-12 text-center py-5 py-md-0">
                             <img
-                                src="assets/images/vr-glass/img-1.png"
+                                src="images/vr-glass/img-1.png"
                                 className="img-fluid floating"
                                 alt
                             />

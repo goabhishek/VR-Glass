@@ -35,7 +35,7 @@ export default function Why() {
                             data-wow-delay=".1s"
                         >
                             <img
-                                src="assets/images/vr-glass/img-2.png"
+                                src="images/vr-glass/img-2.png"
                                 className="img-fluid floating"
                                 alt
                             />
