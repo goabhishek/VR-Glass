@@ -1,0 +1,16 @@
+.nabar{
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #00828c;
+    color: transparent;
+}
+.logo{
+    
+
+}
