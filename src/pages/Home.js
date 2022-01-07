@@ -1,47 +1,74 @@
-import React from 'react'
+import React from 'react';
+import '../style.css'
+import ho from '../images/main-banner.jpg'
+import Navbar from '../component/Navbar';
+import Footer from './footer';
 
-export default function Home() {
+const Home = () => {
     return (
-        <div className="wrap">
-
-            <section
-                id="home"
-                className="parallax-fixed main-banner"
-                data-stellar-background-ratio="0.5"
-                style={{ backgroundPosition: "0% 0px" }}
-            >
-                <div id="particles-js" />
-                <div className="content-table">
-                    <div className="content-middle">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div
-                                    className="col-12 text-center mx-auto wow zoomIn"
-                                    data-wow-duration=".2s"
-                                    data-wow-delay=".1s"
-                                >
-                                    <h1 className="text-capitalize strong mt-0 text-white">
-                                        Enjoy Virtual-Reality glasses
-                                    </h1>
-                                    <a
-                                        href="#"
-                                        className="btn btn-light btn-xl btn-rounded mr-md-4 mb-4 mb-md-0 align-top"
-                                    >
-                                        Purchase Now
-                                    </a>
-                                    <a
-                                        href="#"
-                                        className="btn btn-light btn-xl btn-rounded mr-md-4 mb-4 mb-md-0 align-top"
-                                    >
-                                        <i className="fa fa-play" /> Watch Demo
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+        <div className="Home-Main">
+            <Navbar />
+            <div className="right-container">
+                <div className="card">
+                    <div className="card-top">
+                        <h1>Card</h1>
+                    </div>
+                    <div className="card-body">
+                        <img src={ho} alt="main" />
+                    </div>
+                    <div className="card-body">
+                        <p> Card component rendered inside a container </p>
+                        <button className="theme-btn-vr"><a style={{
+                            textDecoration: "none",
+                        }} href="https://forum.kirupa.com/">Watch Now</a></button>
                     </div>
                 </div>
-            </section>
-
+                <div className="card">
+                    <div className="card-top">
+                        <h1>Card</h1>
+                    </div>
+                    <div className="card-body">
+                        <img src={ho} alt="main" />
+                    </div>
+                    <div className="card-body">
+                        <p> Card component rendered inside a container </p>
+                        <button className="theme-btn-vr"><a style={{
+                            textDecoration: "none",
+                        }} href="https://forum.kirupa.com/">Watch Now</a></button>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-top">
+                        <h1>Card</h1>
+                    </div>
+                    <div className="card-body">
+                        <img src={ho} alt="main" />
+                    </div>
+                    <div className="card-body">
+                        <p> Card component rendered inside a container </p>
+                        <button className="theme-btn-vr"><a style={{
+                            textDecoration: "none",
+                        }} href="https://forum.kirupa.com/">Watch Now</a></button>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-top">
+                        <h1>Card</h1>
+                    </div>
+                    <div className="card-body">
+                        <img src={ho} alt="main" />
+                    </div>
+                    <div className="card-body">
+                        <p> Card component rendered inside a container </p>
+                        <button className="theme-btn-vr"><a style={{
+                            textDecoration: "none",
+                        }} href="https://forum.kirupa.com/">Watch Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </div>
-    )
+    );
 }
+
+export default Home

@@ -1,64 +1,47 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import vr from '../images/home-four-logo.png'
+
+import '../style.css'
 
 
 export default function Navbar() {
+    // const [isMobile, setIsMobile] = useState(false);
     return (
-        <div className="wrap">
-            <header className="header">
-                {/* Navbar */}
-                <nav className="navbar navbar-expand-lg navbar-sticky">
-                    <div className="container">
-                        <a className="navbar-brand" href="index.html">
-                            <img className="img-fluid" src="images/vr-glass/logo.png" alt="logo" />
-                        </a>
-                        <button
-                            className="navbar-toggler"
-                            type="button"
-                            data-toggle="collapse"
-                            data-target="#navbarCollapse"
-                            aria-controls="navbarCollapse"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span className="icon-bar" />
-                            <span className="icon-bar" />
-                            <span className="icon-bar" />
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarCollapse">
-                            <ul className="navbar-nav ml-auto">
-                                <li className="nav-item">
-                                    <a className="nav-link" data-scroll href="#home">
-                                        Home
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-scroll href="#intro">
-                                        Features
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-scroll href="#about-product">
-                                        About Product
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-scroll href="#how-it-work">
-                                        How it work
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-scroll href="#faqs">
-                                        Faq's
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                {/* End Navbar */}
-            </header>
+        <div className="navmain">
+            <nav className="stmain">
+                <div className="logo">
+                    <img src={vr} alt="vrlanding" />
+                </div>
+                <ul className="nav-Links"
+                >
+                    <a style={{
+                        textDecoration: "none",
+                    }} href="/#Home" className="home">
+                        <li >Home</li>
+                    </a>
+                    <a style={{
+                        textDecoration: "none",
+                    }} href="/#About" className="about">
+                        <li>About</li>
+                    </a>
+                    <a style={{
+                        textDecoration: "none",
+                    }} href="/#Solution" className="solution">
+                        <li>Solution</li>
+                    </a>
+                    <a style={{
+                        textDecoration: "none",
+                    }} href="/#Case" className="case">
+                        <li>Case Studies</li>
+                    </a>
+                    <a style={{
+                        textDecoration: "none",
+                    }} href="/#Contact" className="contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
 
+            </nav>
         </div>
-    )
+    );
 }

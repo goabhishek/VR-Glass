@@ -1,7 +1,7 @@
 {
     "typescript.disableAutomaticTypeAcquisition": true,
     "git.autofetch": "all",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "none",
     "editor.wordWrap": "on",
     "editor.autoClosingBrackets": "always",
     "editor.accessibilitySupport": "on",
